@@ -15,7 +15,7 @@ systemctl restart mariadb
 # Create database & user
 mysql <<EOF
 CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'heralt'@'%' IDENTIFIED BY 'heralt';
+CREATE USER 'arkaa'@'%' IDENTIFIED BY 'arkaa';
 GRANT ALL PRIVILEGES ON moodle.* TO 'heralt'@'%';
 FLUSH PRIVILEGES;
 EOF
